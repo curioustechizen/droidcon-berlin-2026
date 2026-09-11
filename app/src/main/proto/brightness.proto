@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package kiranrao.app;
+
+message BrightnessFloat {
+  optional float brightness_level = 1;
+}
+
+message BrightnessInt {
+  optional uint32 brightness_percent = 1;
+}
