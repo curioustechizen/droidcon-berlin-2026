@@ -1,8 +1,0 @@
-syntax = "proto3";
-
-package kiranrao.app;
-
-message WifiInfoFixed {
-  optional bool connected = 1;
-  optional sint32 rssi = 2;
-}

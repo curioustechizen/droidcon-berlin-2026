@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+package kiranrao.app;
+
+message Settings {
+  optional uint32 session_duration_seconds = 1;
+  optional sint32 rssi = 2;
+  optional uint32 millis_since_boot = 3;
+  optional uint32 brightness_percent = 4;
+  optional Guid guid = 5;
+  optional BreathingSegments breath_segments = 6;
+}
+
+message BreathingSegments {
+  optional uint32 inhale_duration_ms = 1;
+  optional uint32 hold_duration_ms = 2;
+  optional uint32 exhale_duration_ms = 3;
+  optional uint32 wait_duration_ms = 4;
+}
+
+message Guid {
+  optional uint64 msb = 1;
+  optional uint64 lsb = 2;
+}
+

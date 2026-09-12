@@ -1,8 +1,0 @@
-syntax = "proto3";
-
-package kiranrao.app;
-
-message UuidFixed {
-  optional fixed64 msb = 1;
-  optional fixed64 lsb = 2;
-}
