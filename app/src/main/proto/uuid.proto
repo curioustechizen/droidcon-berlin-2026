@@ -1,8 +1,0 @@
-syntax = "proto3";
-
-package kiranrao.app;
-
-message Uuid {
-  optional uint64 msb = 1;
-  optional uint64 lsb = 2;
-}
