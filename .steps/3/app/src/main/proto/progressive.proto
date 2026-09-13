@@ -23,3 +23,11 @@ message Guid {
   optional uint64 lsb = 2;
 }
 
+message NegativeInt {
+  optional int32 number = 1;
+}
+
+message NegativeSint {
+  optional sint32 number = 1;
+}
+
