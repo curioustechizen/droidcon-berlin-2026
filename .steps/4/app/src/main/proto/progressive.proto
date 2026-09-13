@@ -6,7 +6,7 @@ message Settings {
   optional int32 session_duration_seconds = 1;
   optional sint32 rssi = 2;
   optional int32 millis_since_boot = 3;
-  optional float brightness = 4;
+  optional uint32 brightness_percent = 4;
   optional Guid guid = 5;
   optional BreathingSegments breath_segments = 6;
 }
