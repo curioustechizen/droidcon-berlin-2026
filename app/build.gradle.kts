@@ -5,6 +5,8 @@ plugins {
 }
 
 dependencies {
+  implementation(libs.gson)
+  implementation(libs.wire.gson.support)
 }
 
 application {

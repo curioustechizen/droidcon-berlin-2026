@@ -5,6 +5,7 @@ kotlinxDatetime = "0.8.0"
 kotlinxSerializationJSON = "1.11.0"
 kotlinxCoroutines = "1.10.2"
 wire = "6.4.5"
+gson = "2.14.0"
 
 [libraries]
 kotlinGradlePlugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
@@ -12,6 +13,8 @@ kotlinxDatetime = { module = "org.jetbrains.kotlinx:kotlinx-datetime", version.r
 kotlinxSerialization = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinxSerializationJSON" }
 kotlinxCoroutines = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinxCoroutines" }
 wire-runtime = { module = "com.squareup.wire:wire-runtime", version.ref = "wire" }
+wire-gson-support = { module = "com.squareup.wire:wire-gson-support", version.ref = "wire"}
+gson = { module = "com.google.code.gson:gson", version.ref = "gson"}
 
 # Libraries can be bundled together for easier import
 [bundles]
