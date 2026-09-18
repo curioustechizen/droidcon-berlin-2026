@@ -6,10 +6,5 @@ message Envelope {
   optional uint32 message_id = 1;
   optional uint32 total_fragments = 2;
   optional uint32 fragment_index = 3;
-
-  /**
-   * AES-GCM example:
-   * |--iv (12 bytes) --|-- ciphertext --|-- auth_tag (16 bytes) --|
-   */
-  optional bytes encrypted_payload = 4;
+  optional bytes payload = 4;
 }

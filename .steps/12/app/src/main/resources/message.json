@@ -1,0 +1,11 @@
+{
+  "message_id": 1,
+  "fragment_count": 1,
+  "fragment_index": 0,
+  "breath": {
+    "inhale_duration_ms": 4500,
+    "hold_duration_ms": 4000,
+    "exhale_duration_ms": 3500,
+    "wait_duration_ms": 2000
+  }
+}
